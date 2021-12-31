@@ -30,7 +30,18 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-admin
 #remote_theme: benbalter/retlab
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
