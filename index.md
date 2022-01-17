@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+#Test title
+This is a test run of using github to host some notes.
